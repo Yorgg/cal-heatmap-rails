@@ -188,7 +188,8 @@ var CalHeatMap = function() {
 		// Formatting of the title displayed when hovering a subDomain cell
 		subDomainTitleFormat: {
 			empty: "{date}",
-			filled: "{count} {name} {connector} {date}"
+			filled:  "{date}"
+			//filled: "{count} {name} {connector} {date}"
 		},
 
 		// Formatting of the {date} used in subDomainTitleFormat
